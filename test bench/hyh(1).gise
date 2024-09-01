@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="hyh.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ALU_CONTROL_UNIT_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="AluControl_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="FORWARD_B_MUX_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FORWARD_B_MUX_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="JUMP_SH_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="MAIN_CONTROL_UNIT.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="MAIN_CONTROL_UNIT.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="MAIN_CONTROL_UNIT.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="MUX_32_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="PC.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="PC.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="PC.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="PC_ADDER_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="PC_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="PIPELINE.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="PIPELINE.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="PIPELINE.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="PIPELINE.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="PIPELINE.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="PIPELINE.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="PIPELINE_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="PIPELINE_envsettings.html"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="PIPELINE_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="PIPELINE_isim_beh.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="PIPELINE_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="PIPELINE_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="PIPELINE_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="SHIFT_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="SIGN_EXTEND_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1716588131" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1716588131">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1716588131" xil_pn:in_ck="5262912985676760396" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1716588131">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="COM.vhd"/>
+      <outfile xil_pn:name="alu.vhd"/>
+      <outfile xil_pn:name="aluu.vhd"/>
+      <outfile xil_pn:name="datamem.vhd"/>
+      <outfile xil_pn:name="exmemreg.vhd"/>
+      <outfile xil_pn:name="f-id-reg.vhd"/>
+      <outfile xil_pn:name="forwardingunit.vhd"/>
+      <outfile xil_pn:name="hazard.vhd"/>
+      <outfile xil_pn:name="idexreg.vhd"/>
+      <outfile xil_pn:name="insmem.vhd"/>
+      <outfile xil_pn:name="jumpsh.vhd"/>
+      <outfile xil_pn:name="maincotrol.vhd"/>
+      <outfile xil_pn:name="mux32.vhd"/>
+      <outfile xil_pn:name="muxb.vhd"/>
+      <outfile xil_pn:name="muxcontrol.vhd"/>
+      <outfile xil_pn:name="pc.vhd"/>
+      <outfile xil_pn:name="pcadder.vhd"/>
+      <outfile xil_pn:name="pipp.vhd"/>
+      <outfile xil_pn:name="rdrtmux.vhd"/>
+      <outfile xil_pn:name="regfile.vhd"/>
+      <outfile xil_pn:name="shift.vhd"/>
+      <outfile xil_pn:name="signextend.vhd"/>
+      <outfile xil_pn:name="wb.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1716581809" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-1656950661997666237" xil_pn:start_ts="1716581809">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1716581809" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-170866858904852767" xil_pn:start_ts="1716581809">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1703282963" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-8128739639321590007" xil_pn:start_ts="1703282963">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1716581397" xil_pn:in_ck="5262912985676760396" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1716581397">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="COM.vhd"/>
+      <outfile xil_pn:name="alu.vhd"/>
+      <outfile xil_pn:name="aluu.vhd"/>
+      <outfile xil_pn:name="datamem.vhd"/>
+      <outfile xil_pn:name="exmemreg.vhd"/>
+      <outfile xil_pn:name="f-id-reg.vhd"/>
+      <outfile xil_pn:name="forwardingunit.vhd"/>
+      <outfile xil_pn:name="hazard.vhd"/>
+      <outfile xil_pn:name="idexreg.vhd"/>
+      <outfile xil_pn:name="insmem.vhd"/>
+      <outfile xil_pn:name="jumpsh.vhd"/>
+      <outfile xil_pn:name="maincotrol.vhd"/>
+      <outfile xil_pn:name="mux32.vhd"/>
+      <outfile xil_pn:name="muxb.vhd"/>
+      <outfile xil_pn:name="muxcontrol.vhd"/>
+      <outfile xil_pn:name="pc.vhd"/>
+      <outfile xil_pn:name="pcadder.vhd"/>
+      <outfile xil_pn:name="pipp.vhd"/>
+      <outfile xil_pn:name="rdrtmux.vhd"/>
+      <outfile xil_pn:name="regfile.vhd"/>
+      <outfile xil_pn:name="shift.vhd"/>
+      <outfile xil_pn:name="signextend.vhd"/>
+      <outfile xil_pn:name="wb.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1716581822" xil_pn:in_ck="5262912985676760396" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="4197280230830488959" xil_pn:start_ts="1716581809">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="PIPELINE_beh.prj"/>
+      <outfile xil_pn:name="PIPELINE_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1716581823" xil_pn:in_ck="-1977833930429478422" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-7207485921393340094" xil_pn:start_ts="1716581822">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="PIPELINE_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1703336000" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1703336000">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1703336000" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-4821158108294198815" xil_pn:start_ts="1703336000">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1703336000" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-8128739639321590007" xil_pn:start_ts="1703336000">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1703336000" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1703336000">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1703336000" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-1656950661997666237" xil_pn:start_ts="1703336000">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1703336000" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="3206529612922900429" xil_pn:start_ts="1703336000">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1703336000" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-4441002322914869549" xil_pn:start_ts="1703336000">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1716589063" xil_pn:in_ck="2306270496580831725" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="5324559871375017382" xil_pn:start_ts="1716589051">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="PIPELINE.lso"/>
+      <outfile xil_pn:name="PIPELINE.prj"/>
+      <outfile xil_pn:name="PIPELINE.syr"/>
+      <outfile xil_pn:name="PIPELINE.xst"/>
+      <outfile xil_pn:name="PIPELINE_beh.prj"/>
+      <outfile xil_pn:name="PIPELINE_stx_beh.prj"/>
+      <outfile xil_pn:name="PIPELINE_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1703336008" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-7707248955151819154" xil_pn:start_ts="1703336008">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+  </transforms>
+
+</generated_project>

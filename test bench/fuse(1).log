@@ -1,0 +1,62 @@
+Running: D:\ISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o D:/New folder (6)/group no 14/group no 14/test bench/PIPELINE_isim_beh.exe -prj D:/New folder (6)/group no 14/group no 14/test bench/PIPELINE_beh.prj work.PIPELINE 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/New folder (6)/group no 14/group no 14/test bench/wb.vhd" into library work
+Parsing VHDL file "D:/New folder (6)/group no 14/group no 14/test bench/signextend.vhd" into library work
+Parsing VHDL file "D:/New folder (6)/group no 14/group no 14/test bench/shift.vhd" into library work
+Parsing VHDL file "D:/New folder (6)/group no 14/group no 14/test bench/regfile.vhd" into library work
+Parsing VHDL file "D:/New folder (6)/group no 14/group no 14/test bench/rdrtmux.vhd" into library work
+Parsing VHDL file "D:/New folder (6)/group no 14/group no 14/test bench/pcadder.vhd" into library work
+Parsing VHDL file "D:/New folder (6)/group no 14/group no 14/test bench/pc.vhd" into library work
+Parsing VHDL file "D:/New folder (6)/group no 14/group no 14/test bench/muxcontrol.vhd" into library work
+Parsing VHDL file "D:/New folder (6)/group no 14/group no 14/test bench/mux32.vhd" into library work
+Parsing VHDL file "D:/New folder (6)/group no 14/group no 14/test bench/maincotrol.vhd" into library work
+Parsing VHDL file "D:/New folder (6)/group no 14/group no 14/test bench/jumpsh.vhd" into library work
+Parsing VHDL file "D:/New folder (6)/group no 14/group no 14/test bench/insmem.vhd" into library work
+Parsing VHDL file "D:/New folder (6)/group no 14/group no 14/test bench/idexreg.vhd" into library work
+Parsing VHDL file "D:/New folder (6)/group no 14/group no 14/test bench/hazard.vhd" into library work
+Parsing VHDL file "D:/New folder (6)/group no 14/group no 14/test bench/forwardingunit.vhd" into library work
+Parsing VHDL file "D:/New folder (6)/group no 14/group no 14/test bench/f-id-reg.vhd" into library work
+Parsing VHDL file "D:/New folder (6)/group no 14/group no 14/test bench/exmemreg.vhd" into library work
+Parsing VHDL file "D:/New folder (6)/group no 14/group no 14/test bench/datamem.vhd" into library work
+Parsing VHDL file "D:/New folder (6)/group no 14/group no 14/test bench/COM.vhd" into library work
+Parsing VHDL file "D:/New folder (6)/group no 14/group no 14/test bench/alu.vhd" into library work
+Parsing VHDL file "D:/New folder (6)/group no 14/group no 14/test bench/pipp.vhd" into library work
+Starting static elaboration
+WARNING:HDLCompiler:89 - "D:/New folder (6)/group no 14/group no 14/test bench/pipp.vhd" Line 394: <alu> remains a black-box since it has no binding entity.
+Completed static elaboration
+WARNING:Simulator:648 - "D:/New folder (6)/group no 14/group no 14/test bench/pipp.vhd" Line 394. Instance alu is unbound
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling architecture behavioral of entity PC [pc_default]
+Compiling architecture behavioral of entity PC_ADDER [pc_adder_default]
+Compiling architecture behavioral of entity MUX_32 [mux_32_default]
+Compiling architecture behavioral of entity instructionmemory [instructionmemory_default]
+Compiling architecture behavioral of entity F_ID_REG [f_id_reg_default]
+Compiling architecture behavioral of entity MAIN_CONTROL_UNIT [main_control_unit_default]
+Compiling architecture behavioral of entity registerfile [registerfile_default]
+Compiling architecture behavioral of entity SIGN_EXTEND [sign_extend_default]
+Compiling architecture behavioral of entity SHIFT [shift_default]
+Compiling architecture behavioral of entity JUMP_SH [jump_sh_default]
+Compiling architecture behavioral of entity MUX_CONTROL_HAZ [mux_control_haz_default]
+Compiling architecture behavioral of entity HAZZARD_UNIT [hazzard_unit_default]
+Compiling architecture behavioral of entity ID_EX_REG [id_ex_reg_default]
+Compiling architecture behavioral of entity RD_RT_MUX [rd_rt_mux_default]
+Compiling architecture behavioral of entity FORWARDING_UNIT [forwarding_unit_default]
+Compiling architecture behavioral of entity FORWARD_A_MUX [forward_a_mux_default]
+Compiling architecture behavioral of entity ALU_CONTROL_UNIT [alu_control_unit_default]
+Compiling architecture behavioral of entity EX_MEM_REG [ex_mem_reg_default]
+Compiling architecture behavioral of entity DATA_MEM [data_mem_default]
+Compiling architecture behavioral of entity WB [wb_default]
+Compiling architecture behavioral of entity pipeline
+Time Resolution for simulation is 1ps.
+Waiting for 18 sub-compilation(s) to finish...
+Compiled 46 VHDL Units
+Built simulation executable D:/New folder (6)/group no 14/group no 14/test bench/PIPELINE_isim_beh.exe
+Fuse Memory Usage: 38500 KB
+Fuse CPU Usage: 1733 ms

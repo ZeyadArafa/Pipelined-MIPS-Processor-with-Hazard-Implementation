@@ -1,0 +1,200 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Reading design: PIPELINE.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "PIPELINE.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "PIPELINE"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : PIPELINE
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "D:\New folder (7)\New folder\Final Project\test bench\wb.vhd" into library work
+Parsing entity <WB>.
+Parsing architecture <Behavioral> of entity <wb>.
+Parsing VHDL file "D:\New folder (7)\New folder\Final Project\test bench\signextend.vhd" into library work
+Parsing entity <SIGN_EXTEND>.
+Parsing architecture <Behavioral> of entity <sign_extend>.
+Parsing VHDL file "D:\New folder (7)\New folder\Final Project\test bench\shift.vhd" into library work
+Parsing entity <SHIFT>.
+Parsing architecture <Behavioral> of entity <shift>.
+Parsing VHDL file "D:\New folder (7)\New folder\Final Project\test bench\regfile.vhd" into library work
+Parsing entity <registerfile>.
+Parsing architecture <Behavioral> of entity <registerfile>.
+Parsing VHDL file "D:\New folder (7)\New folder\Final Project\test bench\rdrtmux.vhd" into library work
+Parsing entity <RD_RT_MUX>.
+Parsing architecture <Behavioral> of entity <rd_rt_mux>.
+Parsing VHDL file "D:\New folder (7)\New folder\Final Project\test bench\pro.vhd" into library work
+Parsing entity <alu>.
+Parsing architecture <Behavioral> of entity <alu>.
+Parsing VHDL file "D:\New folder (7)\New folder\Final Project\test bench\pcadder.vhd" into library work
+Parsing entity <PC_ADDER>.
+Parsing architecture <Behavioral> of entity <pc_adder>.
+Parsing VHDL file "D:\New folder (7)\New folder\Final Project\test bench\pc.vhd" into library work
+Parsing entity <PC>.
+Parsing architecture <Behavioral> of entity <pc>.
+Parsing VHDL file "D:\New folder (7)\New folder\Final Project\test bench\muxcontrol.vhd" into library work
+Parsing entity <MUX_CONTROL_HAZ>.
+Parsing architecture <Behavioral> of entity <mux_control_haz>.
+Parsing VHDL file "D:\New folder (7)\New folder\Final Project\test bench\mux32.vhd" into library work
+Parsing entity <MUX_32>.
+Parsing architecture <Behavioral> of entity <mux_32>.
+Parsing VHDL file "D:\New folder (7)\New folder\Final Project\test bench\maincotrol.vhd" into library work
+Parsing entity <MAIN_CONTROL_UNIT>.
+Parsing architecture <Behavioral> of entity <main_control_unit>.
+Parsing VHDL file "D:\New folder (7)\New folder\Final Project\test bench\jumpsh.vhd" into library work
+Parsing entity <JUMP_SH>.
+Parsing architecture <Behavioral> of entity <jump_sh>.
+Parsing VHDL file "D:\New folder (7)\New folder\Final Project\test bench\insmem.vhd" into library work
+Parsing entity <instructionmemory>.
+Parsing architecture <Behavioral> of entity <instructionmemory>.
+Parsing VHDL file "D:\New folder (7)\New folder\Final Project\test bench\idexreg.vhd" into library work
+Parsing entity <ID_EX_REG>.
+Parsing architecture <Behavioral> of entity <id_ex_reg>.
+Parsing VHDL file "D:\New folder (7)\New folder\Final Project\test bench\hazard.vhd" into library work
+Parsing entity <HAZZARD_UNIT>.
+Parsing architecture <Behavioral> of entity <hazzard_unit>.
+Parsing VHDL file "D:\New folder (7)\New folder\Final Project\test bench\forwardingunit.vhd" into library work
+Parsing entity <FORWARDING_UNIT>.
+Parsing architecture <Behavioral> of entity <forwarding_unit>.
+Parsing VHDL file "D:\New folder (7)\New folder\Final Project\test bench\f-id-reg.vhd" into library work
+Parsing entity <F_ID_REG>.
+Parsing architecture <Behavioral> of entity <f_id_reg>.
+Parsing VHDL file "D:\New folder (7)\New folder\Final Project\test bench\exmemreg.vhd" into library work
+Parsing entity <EX_MEM_REG>.
+Parsing architecture <Behavioral> of entity <ex_mem_reg>.
+Parsing VHDL file "D:\New folder (7)\New folder\Final Project\test bench\datamem.vhd" into library work
+Parsing entity <DATA_MEM>.
+Parsing architecture <Behavioral> of entity <data_mem>.
+Parsing VHDL file "D:\New folder (7)\New folder\Final Project\test bench\COM.vhd" into library work
+Parsing entity <ALU_CONTROL_UNIT>.
+Parsing architecture <Behavioral> of entity <alu_control_unit>.
+Parsing VHDL file "D:\New folder (7)\New folder\Final Project\test bench\alu.vhd" into library work
+Parsing entity <FORWARD_A_MUX>.
+Parsing architecture <Behavioral> of entity <forward_a_mux>.
+Parsing VHDL file "D:\New folder (7)\New folder\Final Project\test bench\pipp.vhd" into library work
+Parsing entity <PIPELINE>.
+Parsing architecture <Behavioral> of entity <pipeline>.
+Parsing VHDL file "D:\New folder (7)\New folder\Final Project\test bench\aluu.vhd" into library work
+Parsing entity <ALU_CONTROL_UNIT>.
+Parsing architecture <Behavioral> of entity <alucontrol>.
+ERROR:HDLCompiler:374 - "D:\New folder (7)\New folder\Final Project\test bench\aluu.vhd" Line 36: Entity <alucontrol> is not yet compiled.
+ERROR:HDLCompiler:69 - "D:\New folder (7)\New folder\Final Project\test bench\aluu.vhd" Line 42: <control> is not declared.
+ERROR:HDLCompiler:69 - "D:\New folder (7)\New folder\Final Project\test bench\aluu.vhd" Line 44: <control> is not declared.
+ERROR:HDLCompiler:69 - "D:\New folder (7)\New folder\Final Project\test bench\aluu.vhd" Line 43: <aluop> is not declared.
+ERROR:HDLCompiler:69 - "D:\New folder (7)\New folder\Final Project\test bench\aluu.vhd" Line 46: <control> is not declared.
+ERROR:HDLCompiler:69 - "D:\New folder (7)\New folder\Final Project\test bench\aluu.vhd" Line 45: <aluop> is not declared.
+ERROR:HDLCompiler:69 - "D:\New folder (7)\New folder\Final Project\test bench\aluu.vhd" Line 48: <control> is not declared.
+ERROR:HDLCompiler:69 - "D:\New folder (7)\New folder\Final Project\test bench\aluu.vhd" Line 47: <aluop> is not declared.
+ERROR:HDLCompiler:69 - "D:\New folder (7)\New folder\Final Project\test bench\aluu.vhd" Line 50: <control> is not declared.
+ERROR:HDLCompiler:69 - "D:\New folder (7)\New folder\Final Project\test bench\aluu.vhd" Line 49: <aluop> is not declared.
+ERROR:HDLCompiler:69 - "D:\New folder (7)\New folder\Final Project\test bench\aluu.vhd" Line 52: <control> is not declared.
+ERROR:HDLCompiler:69 - "D:\New folder (7)\New folder\Final Project\test bench\aluu.vhd" Line 51: <aluop> is not declared.
+ERROR:HDLCompiler:69 - "D:\New folder (7)\New folder\Final Project\test bench\aluu.vhd" Line 54: <control> is not declared.
+ERROR:HDLCompiler:69 - "D:\New folder (7)\New folder\Final Project\test bench\aluu.vhd" Line 41: <aluop> is not declared.
+ERROR:HDLCompiler:69 - "D:\New folder (7)\New folder\Final Project\test bench\aluu.vhd" Line 39: <aluop> is not declared.
+VHDL file D:\New folder (7)\New folder\Final Project\test bench\aluu.vhd ignored due to errors
+--> 
+
+Total memory usage is 4497940 kilobytes
+
+Number of errors   :   15 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "D:/hyh/PIPELINE.xst" -ofn "D:/hyh/PIPELINE.syr" 
+xst -intstyle ise -ifn "D:/hyh/PIPELINE.xst" -ofn "D:/hyh/PIPELINE.syr" 
+xst -intstyle ise -ifn "D:/New folder (7)/New folder/Final Project/test bench/PIPELINE.xst" -ofn "D:/New folder (7)/New folder/Final Project/test bench/PIPELINE.syr" 

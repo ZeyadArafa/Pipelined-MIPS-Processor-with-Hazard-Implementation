@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompiler" num="374" delta="new" >"D:\New folder (7)\New folder\Final Project\test bench\aluu.vhd" Line 36: Entity &lt;<arg fmt="%s" index="1">alucontrol</arg>&gt; is not yet compiled.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"D:\New folder (7)\New folder\Final Project\test bench\aluu.vhd" Line 42: &lt;<arg fmt="%s" index="1">control</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"D:\New folder (7)\New folder\Final Project\test bench\aluu.vhd" Line 44: &lt;<arg fmt="%s" index="1">control</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"D:\New folder (7)\New folder\Final Project\test bench\aluu.vhd" Line 43: &lt;<arg fmt="%s" index="1">aluop</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"D:\New folder (7)\New folder\Final Project\test bench\aluu.vhd" Line 46: &lt;<arg fmt="%s" index="1">control</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"D:\New folder (7)\New folder\Final Project\test bench\aluu.vhd" Line 45: &lt;<arg fmt="%s" index="1">aluop</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"D:\New folder (7)\New folder\Final Project\test bench\aluu.vhd" Line 48: &lt;<arg fmt="%s" index="1">control</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"D:\New folder (7)\New folder\Final Project\test bench\aluu.vhd" Line 47: &lt;<arg fmt="%s" index="1">aluop</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"D:\New folder (7)\New folder\Final Project\test bench\aluu.vhd" Line 50: &lt;<arg fmt="%s" index="1">control</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"D:\New folder (7)\New folder\Final Project\test bench\aluu.vhd" Line 49: &lt;<arg fmt="%s" index="1">aluop</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"D:\New folder (7)\New folder\Final Project\test bench\aluu.vhd" Line 52: &lt;<arg fmt="%s" index="1">control</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"D:\New folder (7)\New folder\Final Project\test bench\aluu.vhd" Line 51: &lt;<arg fmt="%s" index="1">aluop</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"D:\New folder (7)\New folder\Final Project\test bench\aluu.vhd" Line 54: &lt;<arg fmt="%s" index="1">control</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"D:\New folder (7)\New folder\Final Project\test bench\aluu.vhd" Line 41: &lt;<arg fmt="%s" index="1">aluop</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"D:\New folder (7)\New folder\Final Project\test bench\aluu.vhd" Line 39: &lt;<arg fmt="%s" index="1">aluop</arg>&gt; is not declared.
+</msg>
+
+</messages>
+

@@ -1,0 +1,33 @@
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+---- Uncomment the following library declaration if instantiating
+---- any Xilinx primitives in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity JUMP_SH is
+    Port ( INPUT : in  STD_LOGIC_VECTOR (25 downto 0);
+           PC : in  STD_LOGIC_VECTOR (31 downto 0);
+           OUTPUT : out  STD_LOGIC_VECTOR (31 downto 0));
+end JUMP_SH;
+
+architecture Behavioral of JUMP_SH is
+
+begin
+
+process (INPUT)
+begin
+   for i in 27 downto 2 loop
+	  OUTPUT(i)<=INPUT(i-2);
+   end loop;
+	OUTPUT(1)<='0';
+	OUTPUT(0)<='0';
+	OUTPUT(31 downto 28)<=pc(31 downto 28);
+end process;
+
+end Behavioral;
+
