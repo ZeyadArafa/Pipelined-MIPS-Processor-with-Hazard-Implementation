@@ -1,25 +1,5 @@
-# Recognize VHDL file extensions as text
-*.vhdl text
-*.vhd  text
-*.vho  text
-
-# Set line endings to LF for consistency across environments
-*.vhdl text eol=lf
-*.vhd  text eol=lf
-*.vho  text eol=lf
-
-# Optimize diff settings for VHDL files
-*.vhdl diff
-*.vhd  diff
-*.vho  diff
-
-# Optional: Custom linguist language assignment for better GitHub recognition
-*.vhdl linguist-language=VHDL
-*.vhd  linguist-language=VHDL
-*.vho  linguist-language=VHDL
-
-# Mark common VHDL-related binary files
-*.rpt  binary
-*.syn  binary
-*.twr  binary
-*.log  text
+*.vhdl linguist-detectable=true  
+*.java linguist-detectable=false  
+*.js linguist-detectable=false  
+*.html linguist-detectable=false  
+*.xml linguist-detectable=false    
