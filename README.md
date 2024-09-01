@@ -83,5 +83,3 @@ Feel free to open issues or submit pull requests. Contributions to enhance the p
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 ---
-
-You can adjust the content based on your specific needs and the detailed information from the provided documents. The links (`./Architecture.png`, etc.) assume that the files will be included in the same repository.
