@@ -1,31 +1,25 @@
-# Recognize VHDL file extensions
+# Recognize VHDL file extensions as text
 *.vhdl text
 *.vhd  text
 *.vho  text
 
-# Treat all VHDL files as text for better diffing
-*.vhdl diff
-*.vhd  diff
-*.vho  diff
-
-# Set line endings to LF for VHDL files
+# Set line endings to LF for consistency across environments
 *.vhdl text eol=lf
 *.vhd  text eol=lf
 *.vho  text eol=lf
 
-# Optional: Merge conflicts in VHDL files should not attempt to auto-resolve
-*.vhdl merge=ours
-*.vhd  merge=ours
-*.vho  merge=ours
+# Optimize diff settings for VHDL files
+*.vhdl diff
+*.vhd  diff
+*.vho  diff
 
-# Treat synthesis reports, timing reports, and similar as binary files
+# Optional: Custom linguist language assignment for better GitHub recognition
+*.vhdl linguist-language=VHDL
+*.vhd  linguist-language=VHDL
+*.vho  linguist-language=VHDL
+
+# Mark common VHDL-related binary files
 *.rpt  binary
 *.syn  binary
 *.twr  binary
 *.log  text
-
-# Add custom attributes for VHDL test benches and design files
-*.tb.vhdl linguist-language=VHDL
-*.tb.vhd  linguist-language=VHDL
-*.design.vhdl linguist-language=VHDL
-*.design.vhd  linguist-language=VHDL
